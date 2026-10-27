@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Starfam Gizlilik Politikası / Starfam Privacy Policy">
+  <title>Starfam — Gizlilik Politikası / Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fb;
+      --surface: #ffffff;
+      --text: #202637;
+      --muted: #626d80;
+      --accent: #6558d3;
+      --accent-soft: #eeecff;
+      --border: #e4e8f0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.7 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    .page { width: min(850px, calc(100% - 32px)); margin: 44px auto; }
+    .top {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 18px; flex-wrap: wrap; margin-bottom: 18px;
+    }
+    .brand { display: flex; align-items: center; gap: 12px; }
+    .logo {
+      display: grid; place-items: center; width: 48px; height: 48px;
+      border-radius: 15px; color: white; font-weight: 800; font-size: 25px;
+      background: linear-gradient(135deg, #8175f3, #5145bd);
+      box-shadow: 0 7px 18px #6558d32b;
+    }
+    .brand-name { font-size: 1.15rem; font-weight: 800; letter-spacing: -.03em; }
+    .brand-sub { color: var(--muted); font-size: .86rem; }
+    .language {
+      display: flex; gap: 4px; padding: 4px; border: 1px solid var(--border);
+      border-radius: 12px; background: var(--surface);
+    }
+    .language button {
+      border: 0; border-radius: 8px; padding: 9px 13px; cursor: pointer;
+      font: inherit; font-size: .9rem; font-weight: 700;
+      background: transparent; color: var(--muted);
+    }
+    .language button[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); }
+    main {
+      padding: clamp(24px, 5vw, 48px); border: 1px solid var(--border);
+      border-radius: 22px; background: var(--surface);
+      box-shadow: 0 14px 45px #2026370a;
+    }
+    h1 { margin: 0 0 6px; font-size: clamp(1.8rem, 5vw, 2.45rem); line-height: 1.2; letter-spacing: -.04em; }
+    .updated { color: var(--muted); font-size: .92rem; margin: 0 0 28px; }
+    .intro { font-size: 1.06rem; }
+    h2 { margin: 30px 0 8px; font-size: 1.2rem; letter-spacing: -.02em; }
+    p { margin: 9px 0; }
+    ul { padding-left: 1.35rem; margin: 10px 0; }
+    li { margin: 8px 0; padding-left: 3px; }
+    .note {
+      margin-top: 28px; padding: 15px 17px; border-radius: 12px;
+      background: #f7f6ff; border: 1px solid #e8e5ff; color: #4d477e;
+      font-size: .92rem;
+    }
+    a { color: var(--accent); overflow-wrap: anywhere; }
+    footer { padding: 20px 8px 0; text-align: center; color: var(--muted); font-size: .85rem; }
+    [hidden] { display: none !important; }
+    @media (max-width: 520px) {
+      .page { margin: 22px auto; }
+      .top { align-items: flex-start; }
+      .language { width: 100%; }
+      .language button { flex: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="top">
+      <div class="brand" aria-label="Starfam">
+        <div class="logo" aria-hidden="true">S</div>
+        <div>
+          <div class="brand-name">Starfam</div>
+          <div class="brand-sub" data-tr>Gizlilik ve güven</div>
+          <div class="brand-sub" data-en hidden>Privacy and trust</div>
+        </div>
+      </div>
+      <nav class="language" aria-label="Language selection">
+        <button type="button" id="trButton" aria-pressed="true">Türkçe</button>
+        <button type="button" id="enButton" aria-pressed="false">English</button>
+      </nav>
+    </header>
+
+    <main>
+      <section lang="tr" data-language="tr">
+        <h1>Gizlilik Politikası</h1>
+        <p class="updated">Son güncelleme: 27 Ekim 2026</p>
+        <p class="intro">Starfam, ailelerin ev görevlerini ve ödülleri takip etmesine yardımcı olan bir uygulamadır. Gizliliğinizi önemsiyoruz ve uygulama verilerini cihazınızda tutacak şekilde tasarladık.</p>
+
+        <h2>1. Hesap ve sunucu</h2>
+        <p>Starfam'ı kullanmak için hesap oluşturmanız gerekmez. Uygulama, aile adı, çocukların adları ve simgeleri, görevler, yıldızlar, ödüller ve veli PIN'inin tek yönlü özeti gibi girdiğiniz bilgileri cihazınızda saklar.</p>
+
+        <h2>2. Toplanan veriler</h2>
+        <p>Starfam geliştiricisi olarak bu bilgileri sunucularımıza toplamayız veya göndermeyiz. Uygulamada reklam, analitik ya da izleme araçları bulunmaz.</p>
+
+        <h2>3. Çocukların gizliliği</h2>
+        <p>Çocuğa ait ad ve simge gibi bilgiler veli tarafından girilir ve cihazda kalır. Starfam bu bilgileri cihaz dışına göndermez.</p>
+
+        <h2>4. Uygulama içi satın almalar</h2>
+        <p>Pro satın alımları Google Play üzerinden gerçekleştirilir. Ödeme işlemleri Google Play tarafından yürütülür; geliştirici olarak ödeme kartı veya ödeme hesabı bilgilerinizi görmeyiz. Google'ın veri uygulamaları hakkında bilgi için <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Gizlilik Politikası</a>'nı inceleyebilirsiniz.</p>
+
+        <h2>5. Verilerin silinmesi</h2>
+        <p>Uygulamadaki veli alanında <strong>Ayarlar → Tüm verileri sil</strong> seçeneğini kullanarak Starfam verilerini silebilirsiniz. Uygulamayı kaldırmak da uygulamanın cihazda tuttuğu yerel verileri kaldırır. Uygulamayı kaldırmadan önce gerekli bilgileri kaydettiğinizden emin olun.</p>
+
+        <h2>6. Politika değişiklikleri</h2>
+        <p>Bu gizlilik politikası gerektiğinde güncellenebilir. Güncel sürüm bu sayfada yayımlanır; güncelleme tarihi sayfanın üstünde gösterilir.</p>
+
+        <h2>7. İletişim</h2>
+        <p>Gizlilikle ilgili sorularınız için bizimle şu adresten iletişime geçebilirsiniz: <a href="mailto:elfdev.tr@gmail.com">elfdev.tr@gmail.com</a></p>
+      </section>
+
+      <section lang="en" data-language="en" hidden>
+        <h1>Privacy Policy</h1>
+        <p class="updated">Last updated: October 27, 2026</p>
+        <p class="intro">Starfam helps families keep track of household chores and rewards. We value your privacy and designed the app to keep app data on your device.</p>
+
+        <h2>1. No account or server</h2>
+        <p>You do not need to create an account to use Starfam. Information you enter—including your family name, children's names and icons, chores, stars, rewards, and a one-way hash of the parent PIN—is stored on your device.</p>
+
+        <h2>2. Data collection</h2>
+        <p>As the Starfam developer, we do not collect this information on or send it to our servers. The app contains no ads, analytics, or tracking tools.</p>
+
+        <h2>3. Children's privacy</h2>
+        <p>Information such as a child's name and icon is entered by a parent and stays on the device. Starfam does not send this information off the device.</p>
+
+        <h2>4. In-app purchases</h2>
+        <p>Pro purchases are made through Google Play. Google Play processes the payment; as the developer, we do not see your payment card or payment account details. For information about Google's data practices, please review the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>.</p>
+
+        <h2>5. Deleting data</h2>
+        <p>You can delete Starfam data using <strong>Settings → Delete all data</strong> in the parent area of the app. Uninstalling the app also removes local data stored by the app from the device. Make sure to save any information you need before deleting it.</p>
+
+        <h2>6. Changes to this policy</h2>
+        <p>This privacy policy may be updated when necessary. The latest version will be published on this page, and the update date will be shown at the top.</p>
+
+        <h2>7. Contact</h2>
+        <p>If you have privacy-related questions, contact us at: <a href="mailto:elfdev.tr@gmail.com">elfdev.tr@gmail.com</a></p>
+      </section>
+    </main>
+    <footer>© 2026 Starfam</footer>
+  </div>
+
+  <script>
+    const trButton = document.getElementById('trButton');
+    const enButton = document.getElementById('enButton');
+    const sections = document.querySelectorAll('[data-language]');
+    const trLabels = document.querySelectorAll('[data-tr]');
+    const enLabels = document.querySelectorAll('[data-en]');
+
+    function setLanguage(language) {
+      const isTurkish = language === 'tr';
+      document.documentElement.lang = language;
+      sections.forEach(section => section.hidden = section.dataset.language !== language);
+      trLabels.forEach(label => label.hidden = !isTurkish);
+      enLabels.forEach(label => label.hidden = isTurkish);
+      trButton.setAttribute('aria-pressed', String(isTurkish));
+      enButton.setAttribute('aria-pressed', String(!isTurkish));
+      document.title = isTurkish
+        ? 'Starfam — Gizlilik Politikası'
+        : 'Starfam — Privacy Policy';
+    }
+
+    trButton.addEventListener('click', () => setLanguage('tr'));
+    enButton.addEventListener('click', () => setLanguage('en'));
+    setLanguage('tr');
+  </script>
+</body>
+</html>
